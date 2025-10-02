@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    margin: 0;
+    background-color: #191717;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a, p {
+    font-family: "Anonymous Pro", sans-serif;
+}
+
+a {
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9b9494;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+header > p {
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.custom-span {
+    letter-spacing: 10px;
+}
+
+main {
+    flex: 1;
+}
+
+.main-content-container {
+    margin-top: 5rem;
+    border-left: 2px solid #FF1515;
+    border-right: 2px solid #FF1515;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.main-content-container > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.main-content-container > ul li {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    background-color: #242323;
+    height: 3rem;
+    transition: all 2s;
+}
+
+.main-content-container > ul li:hover a {
+    scale: 1.2;
+}
+
+.main-content-container > ul li:active {
+        background-color: #2423236b;
+
+}
+
+.main-content-container a {
+    color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    background-color: #1f1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.link-resource {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.link-icon {
+    width: 2rem;
+}
+
+.span {
+    align-self: center;
+}
+
+.about-website {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-website p {
+    margin: 0.5rem;
+}
+
